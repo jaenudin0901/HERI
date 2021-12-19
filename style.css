@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 100px;
+}
+
+.heading {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.banner {
+    background-color: black;
+}
+
+.banner .heading,
+.text p,
+.action {
+    color: #fff;
+    text-align: start;
+}
+
+.banner .text p {
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.banner .action {
+    background-color: cornsilk;
+    padding: 20px 40px;
+    color: blue;
+    width: 18%;
+
+}
+
+.banner .action a {
+    width: 20%;
+    text-decoration: none;
+    color: blue;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
+    gap: 10px;
+
+}
+
+.about .text {
+    text-align: center;
+}
+
+.about .text h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.about .text p {
+    text-align: start;
+    letter-spacing: 1px;
+    color: black;
+}
+
+/* contact */
+.contact{
+    background-color: blue;
+}
+.contact .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.box{
+    display: flex;
+    gap: 20px;
+}
+.box .icon {
+    font-size: 20px;
+}
+.formBx form{
+    display: flex;
+    flex-direction: column;
+}
+.formBx form h3,
+.contactInfo h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.formBx form input,
+.formBx form  textarea{
+    margin-bottom: 20px;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #000;
+    resize: none;
+}
+.formBx form  textarea{
+    min-height: 200px;
+}
+.formBx form  input::placeholder
+.formBx form  textarea::placeholder{
+    color: #999;
+}
+.formBx form input[type="submit"]{
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.box .text  h3{
+text-align: start;
+}
+/* contact end */
+
+.blogs {
+    text-align: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.blogs .content .blogsBx {
+    background-color: azure;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.blogs .content .blogsBx img {
+    width: 100%;
+}
+
+.blogs .content .blogsBx h4 {
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.blogs .content .blogsBx .action {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.blogs .content .blogsBx .action a:hover {
+    text-decoration: underline;
+}
+
+.blogs .content .blogsBx .action a {
+    color: black;
+    text-decoration: none;
+}
+
+/* end services */
+
+/* register */
+.register {
+    background-color: black;
+}
+
+.register .heading,
+.text {
+    text-align: center;
+    color: white;
+}
+
+.register .text p {
+    text-align: center;
+}
+
+.register .action {
+    margin: 20px 0;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    gap: 10px;
+}
+
+.register .action a {
+    padding: 10px 20px;
+    margin: 0n 10px;
+    text-decoration: none;
+
+
+
+}
+
+.register .action .reg {
+    color: blue;
+    background-color: cornsilk;
+}
+
+.register .action .vie {
+    color: white;
+    background-color: blue;
+}
+
+/* end register */
+/* start unvi */
+.univercity .links {
+    /* margin: 15px 0; */
+    margin-bottom: 15px;
+}
+
+.univercity .links ul {
+    text-align: center;
+}
+
+.univercity ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.univercity ul li a {
+
+    color: black;
+    padding: 10px 20px;
+
+}
+
+.univercity .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+/* end univ */
+
+/* start blogs*/
+.blogs .content .blogsBx {
+    background-color: azure;
+    padding: 10px;
+}
+
+.blogs .content .blogsBx img {
+    width: 100%;
+}
+
+.blogs .content .blogsBx h4 {
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.blogs .content .blogsBx .action {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.blogs .content .blogsBx .action a:hover {
+    text-decoration: underline;
+}
+
+/* end Blogs */
+/* start box */
+.box .heading {
+
+    text-align: start;
+}
